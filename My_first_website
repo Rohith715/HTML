@@ -1,0 +1,144 @@
+html>
+    <head>
+        <link rel="icon"
+        href="C:\Users\PHOENIX\Desktop\k.PNG">
+        
+    </head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image:url("123456.jpg");
+            background-size: 100% 100vh;
+
+        }
+        image{
+            height: 30px;
+            width: 30px;
+            
+        }
+        nav{
+            background-color: rgba(193, 191, 167, 0.46);
+            height: 40px;
+        }
+        nav ul li{
+            display: inline-block;
+            padding-top: 0px;
+            padding-left: 60px;
+
+        }
+        a{
+            text-decoration: none;
+            text-align: right;
+            color: rgb(248, 248, 238);
+            font-weight: bolder;
+            display: inline-flex;
+            padding: 12px;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: rgb(21, 80, 183);
+            background-color: rgba(70, 110, 110, 0.582);
+            
+        }
+        input{
+            margin-left: 35%;
+            border-radius: 12px;
+            width: 500px;
+            height: 40px;
+        }
+        button{
+            font-weight: 300;
+            border-radius: 12px;
+            width: 15%;
+            height: 38px;
+            font-size: larger;
+            margin: 30px;
+            
+            
+
+        }
+        button:hover {
+            transition: 0.6s;
+            color: rgb(252, 253, 253);
+            background-color: rgb(164, 203, 224);
+            font-size: 34-large;
+            
+
+        }
+        p{
+            background-color: rgba(147, 122, 132, 0.7);
+            margin-left: 1300px;
+            height: 70px;
+            width: 205px;
+            padding-left: 30px;
+            align-content: center;
+
+        }
+        p:hover{
+            transition: 0.65s;
+            color: rgb(44, 55, 123);
+            font-size: larger;
+        }
+        .peek{font-size: 300px;
+            color: rgb(176, 40, 40);
+            font-weight: 100;
+            ;
+
+
+        }
+        :placeholder-shown{
+            text-align: center;
+        }
+        div{
+            background-color: rgba(147, 122, 132, 0.7);
+            border-radius: 30px;
+            margin-left: 20px;
+            margin-right: 200px;
+        }
+        
+        
+        
+        
+    
+
+
+
+    </style>
+    <body>
+        <nav >
+            <ul><li><a href="home.html">HOME</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="source.html">SOURCE CODE</a></li>
+                
+
+            </ul>
+           
+        </nav>
+    
+            
+        <p id="time">
+            <script>
+                document.write(Date());
+            </script>
+            </p>
+        
+    <center> <img src="k.png" alt=""></center>
+    <input type="text" placeholder="Enter the Region &NonBreakingSpace;&nbsp;" class="inputValue"><br>
+   <center><button ><b>search</b></button class="button"></center> 
+    
+   
+   <marquee behavior="" direction="left">
+    <a href="https://climate.nasa.gov/news/?page=0&per_page=40&order=publish_date+desc%2C+created_at+desc&search=&category=19%2C98">Latest news about climate change  </a>
+    <a href="https://ozonewatch.gsfc.nasa.gov/"> Ozone live stats </a>
+    <a href="https://teamseas.org/">Team seas.org </a>
+    <a href=""></a>
+</marquee>
+
+
+       
+    </body>
+</html>
